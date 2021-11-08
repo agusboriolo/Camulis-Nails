@@ -176,7 +176,7 @@ margin:0 auto;}
 button:hover{color:white;
 cursor:pointer;}
 
-/*RESPONSIVE*/
+/*RESPONSIVE 1350*/
 /*INICIO*/
 @media screen and (max-width:1350px)
 {#inicio{display:flex;
@@ -201,6 +201,8 @@ text-align:center;}
 text-align:center;}
 
 /*SERVICIOS*/
+#tituloServicios{margin-top:100px;}
+
 #servicios{display:flex;
 flex-direction:column;
 text-align:center;}
@@ -223,12 +225,69 @@ text-align:center;}
 hr{margin: auto;
 margin-top:-20px;
 margin-bottom:25px;
-text-align:center;}}
+text-align:center;}
+
+/*CONTACTO*/
+#tituloContacto{margin-top:-200px;}}
+
+ /*RESPONSIVE 705*/
+@media screen and (max-width:705px)
+{a{font-size:10px;}
+  
+/*INICIO*/
+#tituloGrande{font-size:100px;}
     
-@media screen and (max-width:600px)
-{#fotoGaleria{width:290px;}
+#fotoGaleria{width:290px;}
 
 #flechaIzq{float:none;
 margin-bottom:125px;}
 #flechaDer{float:none;
 margin-bottom:125px;}}
+
+ /*RESPONSIVE 500*/
+@media screen and (max-width:500px)
+{a{font-size:8px;}
+
+/*INICIO*/
+#tituloGrande{font-size:100px;}
+    
+#fotoGaleria{width:260px;}
+
+#flechaIzq{float:none;
+margin-bottom:110px;}
+#flechaDer{float:none;
+margin-bottom:110px;}}
+
+ /*RESPONSIVE 448*/
+@media screen and (max-width:448px)
+{a{font-size:8px;}
+
+/*INICIO*/
+#inicio{margin-left:20px;}
+
+#tituloGrande{font-size:80px;}
+    
+#fotoGaleria{width:220px;}
+
+#flechaIzq{float:none;
+margin-bottom:90px;}
+#flechaDer{float:none;
+margin-bottom:90px;}}
+
+ /*RESPONSIVE 375*/
+ @media screen and (max-width:375px)
+{a{font-size:8px;}
+ 
+ /*INICIO*/
+ #inicio{margin-left:20px;}
+
+ #tituloGrande{font-size:80px;}
+     
+ #fotoGaleria{width:190px;}
+ 
+ #flechaIzq{float:none;
+ margin-bottom:70px;}
+ #flechaDer{float:none;
+ margin-bottom:70px;}
+
+.tituloChico{font-size:50px;}}
