@@ -276,7 +276,9 @@ margin-bottom:90px;}}
 
  /*RESPONSIVE 375*/
  @media screen and (max-width:375px)
-{a{font-size:8px;}
+{li{padding-left:15px;}
+
+a{font-size:8px;}
  
  /*INICIO*/
  #inicio{margin-left:20px;}
